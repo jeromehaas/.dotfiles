@@ -24,5 +24,6 @@ call plug#begin('~/dotfiles/settings/vim/plugged')
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'vim-airline/vim-airline'
 Plug 'rakr/vim-one'
+Plug 'sainnhe/edge'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
