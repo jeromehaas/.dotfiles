@@ -44,6 +44,8 @@ Plug 'joshdick/onedark.vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
 Plug 'mattn/emmet-vim'
+Plug 'sheerun/vim-polyglot'
+Plug 'jiangmiao/auto-pairs'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
