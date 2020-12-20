@@ -12,16 +12,17 @@ set foldcolumn=1
 set undofile
 set undodir=~/.vim/
 set undolevels=1000
-let mapleader=","
 
+let mapleader=","
 map <leader>s :w<cr>
 imap <leaser>s <esc> :w<cr>
 
-call plug#begin('~/.vim/plugged')
+" Plugins will be downloaded under the specified directory.
+call plug#begin('~/dotfiles/settings/vim/plugged')
+
+" Declare the list of plugins.
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'vim-airline/vim-airline'
 Plug 'rakr/vim-one'
+" List ends here. Plugins become visible to Vim after this call.
 call plug#end()
-
-colorscheme one
-set background=dark

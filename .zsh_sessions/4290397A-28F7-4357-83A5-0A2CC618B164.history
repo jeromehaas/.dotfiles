@@ -1,0 +1,25 @@
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+sudo
+sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew doctor
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+ls -l /usr/local/Homebrew/.git/FETCH_HEAD
+sudo chown -R $(whoami):admin /usr/local/* && sudo chmod -R g+rwx /usr/local/*
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install --cask brave-browser
+cd ~
+ls -la
+git clone https://github.com/jeromehaas/.dotfiles.git
+vim
+ls -la
+cd .dotfiles
+ls -la
+ls -la
+vim install.sh
+vim brew.sh
+vim install.sh
+vim install.sh
+sh install.sh /Users/jeromehaas/
+ls -la

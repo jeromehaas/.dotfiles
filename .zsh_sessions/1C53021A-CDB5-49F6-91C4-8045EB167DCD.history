@@ -1,0 +1,13 @@
+/Users/test/dotfiles/.aliases ; exit;
+ls -la
+vim
+ls -la
+vim .bashrc
+vim .aliases
+open .aliases
+ls -la
+mv .dotfiles dotfiles
+ls -la
+open .aliases
+vim
+exit

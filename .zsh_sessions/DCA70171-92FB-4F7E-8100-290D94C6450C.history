@@ -1,0 +1,20 @@
+sh install.sh /Users/jeromehaas/
+cd ~/.dotfiles
+ls -la
+sh install.sh /Users/test
+ls -la
+cd ..
+ls -la
+defaults write com.apple.Finder AppleShowAllFiles true
+ls -la
+killall Finder
+ls -la
+ls -la
+ls -la
+ls -la
+ls -la
+touch .hello.txt
+ls -la
+ls -la
+ls a-la
+open .hello.txt

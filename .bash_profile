@@ -6,6 +6,8 @@ for file in ~/.{bash_prompt,aliases,private}; do
 done;
 unset file;
 
+echo "Hello";
+
 #Git auto-complete
 if [ -f ~/.git-completion.bash ]; then
     source ~/.git-completion.bash

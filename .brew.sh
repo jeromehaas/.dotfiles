@@ -3,6 +3,9 @@
 # Install Brew Packages
 brew install python
 brew install tree
+brew install mongodb-community
+brew install mongodb-community-shell
+brew install mongodb-database-tools
 
 # Install MacOS Applications
 brew cask install google-chrome
