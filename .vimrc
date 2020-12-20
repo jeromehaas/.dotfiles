@@ -12,10 +12,20 @@ set foldcolumn=1
 set undofile
 set undodir=~/.vim/
 set undolevels=1000
+set splitbelow splitright
+
+nnoremap <C-J> <C-W>j
+nnoremap <C-K> <C-W>k
+nnoremap <C-L> <C-W>l
+nnoremap <C-H> <C-W>h
 
 let mapleader=","
 map <leader>s :w<cr>
-imap <leaser>s <esc> :w<cr>
+imap <leader>s <esc> :w<cr>
+nmap <leader>n :NERDTreeToggle<CR>
+map <leader>h :split<CR>
+map <leader>v :vsplit<CR>
+map <leader>c :close<CR>
 
 " Plugins will be downloaded under the specified directory.
 "call plug#begin('~/dotfiles/settings/vim/plugged')
