@@ -26,6 +26,7 @@ nmap <leader>n :NERDTreeToggle<CR>
 map <leader>h :split<CR>
 map <leader>v :vsplit<CR>
 map <leader>c :close<CR>
+map <leader>gs :G<CR>
 
 " Plugins will be downloaded under the specified directory.
 "call plug#begin('~/dotfiles/settings/vim/plugged')
@@ -37,6 +38,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'rakr/vim-one'
 Plug 'sainnhe/edge'
 Plug 'joshdick/onedark.vim'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-fugitive'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
