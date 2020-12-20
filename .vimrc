@@ -28,6 +28,9 @@ map <leader>v :vsplit<CR>
 map <leader>c :close<CR>
 map <leader>gs :G<CR>
 
+let g:user_emmet_mode='n'
+let g:user_emmet_leader_key=','
+
 " Plugins will be downloaded under the specified directory.
 "call plug#begin('~/dotfiles/settings/vim/plugged')
 call plug#begin('~/dotfiles/.vim/plugged')
@@ -40,6 +43,7 @@ Plug 'sainnhe/edge'
 Plug 'joshdick/onedark.vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
+Plug 'mattn/emmet-vim'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
