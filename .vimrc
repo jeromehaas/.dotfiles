@@ -18,12 +18,18 @@ map <leader>s :w<cr>
 imap <leaser>s <esc> :w<cr>
 
 " Plugins will be downloaded under the specified directory.
-call plug#begin('~/dotfiles/settings/vim/plugged')
-
+"call plug#begin('~/dotfiles/settings/vim/plugged')
+call plug#begin('~/dotfiles/.vim/plugged')
+"
 " Declare the list of plugins.
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'vim-airline/vim-airline'
 Plug 'rakr/vim-one'
 Plug 'sainnhe/edge'
+Plug 'joshdick/onedark.vim'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
+
+syntax on
+colorscheme onedark
+
