@@ -73,7 +73,7 @@ export ZSH_DISABLE_COMPFIX=true
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-
+source ~/.aliases
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
