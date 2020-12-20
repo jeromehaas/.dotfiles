@@ -46,6 +46,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'mattn/emmet-vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
+Plug 'shougo/deoplete.nvim'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
