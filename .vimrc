@@ -1,3 +1,9 @@
+
+" USED FOR VUNDLE
+set nocompatible             
+filetype off                  
+
+" MAIN CONFIGS
 set nocompatible
 set autoindent
 set expandtab
@@ -14,11 +20,13 @@ set undodir=~/.vim/
 set undolevels=1000
 set splitbelow splitright
 
+" SWITCH BETWEEN WINDOWS
 nnoremap <C-J> <C-W>j
 nnoremap <C-K> <C-W>k
 nnoremap <C-L> <C-W>l
 nnoremap <C-H> <C-W>h
 
+" MAPLEADERS
 let mapleader=","
 map <leader>s :w<cr>
 imap <leader>s <esc> :w<cr>
@@ -28,14 +36,12 @@ map <leader>v :vsplit<CR>
 map <leader>c :close<CR>
 map <leader>gs :G<CR>
 
+" KEY BINDINGS FOR EMMET
 let g:user_emmet_mode='n'
 let g:user_emmet_leader_key=','
 
-" Plugins will be downloaded under the specified directory.
-"call plug#begin('~/dotfiles/settings/vim/plugged')
+" DEFINES WHERE FILES SHOULD BE SAVED AFRER INSALLATION
 call plug#begin('~/dotfiles/.vim/plugged')
-"
-" Declare the list of plugins.
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'vim-airline/vim-airline'
 Plug 'rakr/vim-one'
@@ -47,9 +53,9 @@ Plug 'mattn/emmet-vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
 Plug 'shougo/deoplete.nvim'
-" List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
+" THEME SETTINGS
 syntax on
 colorscheme onedark
 
