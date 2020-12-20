@@ -7,17 +7,23 @@ brew install tree
 # Install MacOS Applications
 brew cask install google-chrome
 brew cask install firefox
-brew cask install sublime-text
-brew cask install virtualbox
-brew cask install sourcetree
+brew cask install atom 
 brew cask install spotify
-brew cask install discord
-brew cask install google-backup-and-sync
+brew cask install mamp
+brew cask install adobe-creative-cloud
+brew cask install macvim
+brew cask install dashlane
+brew cask install slack
+brew cask install tresorit
 brew cask install skype
-brew cask install gimp
-brew cask install vlc
-brew cask install hyperdock
-brew cask install divvy
+brew cask install microsoft-outlook
+brew cask install brave-browser
+brew cask install postman
+brew cask install zoom
+brew cask install visual-studio-code
+brew cask install typora
+brew cask install notion
+brew cask install mongodb-compass
 
 # Install Source Code Pro Font
 brew tap homebrew/cask-fonts
