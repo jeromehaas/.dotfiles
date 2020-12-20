@@ -1,7 +1,8 @@
 
 " USED FOR VUNDLE
 set nocompatible             
-filetype off                  
+filetype plugin on                  
+set omnifunc=syntaxcomplete#Complete
 
 " MAIN CONFIGS
 set nocompatible
@@ -43,6 +44,7 @@ let g:user_emmet_leader_key=','
 " DEFINES WHERE FILES SHOULD BE SAVED AFRER INSALLATION
 call plug#begin('~/dotfiles/.vim/plugged')
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'ternjs/tern_for_vim', { 'do' : 'npm install' }
 Plug 'vim-airline/vim-airline'
 Plug 'rakr/vim-one'
 Plug 'sainnhe/edge'
@@ -53,6 +55,9 @@ Plug 'mattn/emmet-vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
 Plug 'shougo/deoplete.nvim'
+Plug 'kien/ctrlp.vim'
+Plug 'sjl/gundo.vim'
+Plug 'vim-scripts/AutoComplPop'
 call plug#end()
 
 " THEME SETTINGS
