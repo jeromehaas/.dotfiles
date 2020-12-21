@@ -1,0 +1,48 @@
+ls -la
+pwd
+mv .zsh_history dotfiles
+la
+cd dotfiles
+ls -la
+cd settings
+ls -la
+cd vim
+ls -la
+vim
+mv plugged pluggggged
+vim
+cd dotfiles
+ls -la
+rm -rf settings
+ls -la
+git log --oneline
+git add --all
+git commit -m "Remove settings dir and have all dotfiles in same place"
+git push origin master
+cd ..
+cd .vim
+ls ala
+la
+cd vim-plug
+ls -la
+vim plugins.vim
+pwd
+vim .vimrc
+ls -la
+cd ..
+ls -la
+cd vim-plug
+ls -la
+cat plugins.vim
+cd ..
+ls -la
+rm -rf vim-plug
+cd 
+cd dotfiles
+vim
+cd 
+cd Desktop
+git clone https://github.com/jeromehaas/terminal_setup.git
+cd terminal_setup
+ls -la
+sh setup_script.sh

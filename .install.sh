@@ -15,7 +15,7 @@ homedir=$1
 dotfiledir=${homedir}/dotfiles
 
 # LIST ALL FILES TO MAKE A SYMLINK FOR
-files="aliases bash_profile bash_prompt bashrc gitconfig gitignore viminfo vimrc zsh_history zshrc vim viminfo CFUserTextEncoding git-completion.bash vscode viminfo oh-my-zsh ssh"
+files="aliases bash_profile bash_prompt bashrc gitconfig gitignore viminfo vimrc zsh_history zshrc vim viminfo CFUserTextEncoding git-completion.bash vscode viminfo oh-my-zsh ssh npm config tern-project zsh_sessions"
 
 # SWITCH TO DOTFILES DIRECTORY
 echo "Changing to the ${dotfiledir} directory"

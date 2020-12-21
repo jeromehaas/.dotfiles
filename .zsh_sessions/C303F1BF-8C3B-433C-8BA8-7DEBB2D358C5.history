@@ -1,0 +1,141 @@
+: 1608493589:0;ls -la
+: 1608493589:0;pwd
+: 1608493589:0;mv .zsh_history dotfiles
+: 1608493589:0;la
+: 1608493589:0;cd dotfiles
+: 1608493589:0;ls -la
+: 1608493589:0;cd settings
+: 1608493589:0;ls -la
+: 1608493589:0;cd vim
+: 1608493589:0;ls -la
+: 1608493589:0;vim
+: 1608493589:0;mv plugged pluggggged
+: 1608493589:0;vim
+: 1608493589:0;cd dotfiles
+: 1608493589:0;ls -la
+: 1608493589:0;rm -rf settings
+: 1608493589:0;ls -la
+: 1608493589:0;git log --oneline
+: 1608493589:0;git add --all
+: 1608493589:0;git commit -m "Remove settings dir and have all dotfiles in same place"
+: 1608493589:0;git push origin master
+: 1608493589:0;cd ..
+: 1608493589:0;cd .vim
+: 1608493589:0;ls ala
+: 1608493589:0;la
+: 1608493589:0;cd vim-plug
+: 1608493589:0;ls -la
+: 1608493589:0;vim plugins.vim
+: 1608493589:0;pwd
+: 1608493589:0;vim .vimrc
+: 1608493589:0;ls -la
+: 1608493589:0;cd ..
+: 1608493589:0;ls -la
+: 1608493589:0;cd vim-plug
+: 1608493589:0;ls -la
+: 1608493589:0;cat plugins.vim
+: 1608493589:0;cd ..
+: 1608493589:0;ls -la
+: 1608493589:0;rm -rf vim-plug
+: 1608493589:0;cd 
+: 1608493589:0;cd dotfiles
+: 1608493589:0;vim
+: 1608493589:0;cd 
+: 1608493589:0;cd Desktop
+: 1608493589:0;git clone https://github.com/jeromehaas/terminal_setup.git
+: 1608493589:0;cd terminal_setup
+: 1608493589:0;ls -la
+: 1608493589:0;sh setup_script.sh
+: 1608493589:0;cd Desktop
+: 1608493589:0;ls -la
+: 1608493589:0;cd
+: 1608493589:0;cd dotfiles
+: 1608493589:0;ls -la
+: 1608493589:0;cd ..
+: 1608493589:0;ls -la
+: 1608490833:0;la
+: 1608490848:0;mv .oh-my-zsh dotfiles
+: 1608490882:0;ls -n ~/dotfiles/.oh-my-zsh ~/.oh-my-zsh
+: 1608490885:0;pwd
+: 1608490889:0;la
+: 1608490903:0;cd dotfiles
+: 1608490905:0;ls -la
+: 1608490917:0;vim .install.sh
+: 1608490955:0;git add --all
+: 1608490977:0;git commit -m "Add oh-my-zsh to automatic link-list"
+: 1608490981:0;git push origin master
+: 1608490987:0;vim
+: 1608491001:0;cd
+: 1608491002:0;la
+: 1608491322:0;git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+: 1608491330:0;cd .vim
+: 1608491332:0;ls -la
+: 1608491345:0;cd ..
+: 1608491349:0;vim .vimrc
+: 1608491731:0;vim
+: 1608491751:0;pwd
+: 1608491754:0;cd Desktop
+: 1608491755:0;ls -la
+: 1608491760:0;mkdir test
+: 1608491762:0;cd te
+: 1608491765:0;cd test
+: 1608491771:0;touch index.js
+: 1608491773:0;vim index.js
+: 1608491822:0;cd 
+: 1608491829:0;vim .vimrc
+: 1608491849:0;vim
+: 1608491898:0;cd ~/Desktop
+: 1608491904:0;cd test
+: 1608491905:0;ls -la
+: 1608491908:0;la
+: 1608491910:0;vim index.js
+: 1608492007:0;cd
+: 1608492012:0;vim .vimrc
+: 1608492081:0;cd Desktop/test
+: 1608492084:0;vim
+: 1608492098:0;vim index.js
+: 1608492265:0;vim .vimrc
+: 1608492276:0;cd
+: 1608492281:0;cd .vim/bundle
+: 1608492282:0;ls -la
+: 1608492293:0;cd ..
+: 1608492294:0;la
+: 1608492317:0;cd bundle
+: 1608492318:0;ls -la
+: 1608492326:0;vim Vundle.vim
+: 1608492427:0;ls -la
+: 1608492430:0;cd ..
+: 1608492432:0;ls -la
+: 1608492434:0;cd ..
+: 1608492435:0;ls -la
+: 1608492436:0;la
+: 1608492445:0;cd dotfiles
+: 1608492448:0;ls -l
+: 1608492453:0;git log --oneline
+: 1608492475:0;git reset 91a02f9 --hard
+: 1608492569:0;:python3 import sys; print(sys.version)
+: 1608492900:0;pwd
+: 1608492906:0;vim .vimrc
+: 1608492923:0;vim
+: 1608492948:0;cd ~/Desktop/test
+: 1608492948:0;ls -la
+: 1608492951:0;vim index.js
+: 1608493200:0;cd
+: 1608493204:0;vim .vimrc
+: 1608493216:0;vim
+: 1608493248:0;cd ~/Desktop/test
+: 1608493252:0;vim index.js
+: 1608493409:0;cd ~/Desktop
+: 1608493417:0;cd backup_dotfiles
+: 1608493420:0;cd 
+: 1608493429:0;cd dotfiles
+: 1608493434:0;git status
+: 1608493439:0;git add --all
+: 1608493449:0;git commit -m "Add autopairs"
+: 1608493487:0;la
+: 1608493491:0;vim .vimrc
+: 1608493504:0;vim
+: 1608493518:0;cd ~/Desktop
+: 1608493520:0;cd te
+: 1608493523:0;cd test
+: 1608493525:0;vim index.js

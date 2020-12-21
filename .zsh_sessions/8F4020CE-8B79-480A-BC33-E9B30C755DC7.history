@@ -1,0 +1,152 @@
+ls -la
+pwd
+mv .zsh_history dotfiles
+la
+cd dotfiles
+ls -la
+cd settings
+ls -la
+cd vim
+ls -la
+vim
+mv plugged pluggggged
+vim
+cd dotfiles
+ls -la
+rm -rf settings
+ls -la
+git log --oneline
+git add --all
+git commit -m "Remove settings dir and have all dotfiles in same place"
+git push origin master
+cd ..
+cd .vim
+ls ala
+la
+cd vim-plug
+ls -la
+vim plugins.vim
+pwd
+vim .vimrc
+ls -la
+cd ..
+ls -la
+cd vim-plug
+ls -la
+cat plugins.vim
+cd ..
+ls -la
+rm -rf vim-plug
+cd 
+cd dotfiles
+vim
+cd 
+cd Desktop
+git clone https://github.com/jeromehaas/terminal_setup.git
+cd terminal_setup
+ls -la
+sh setup_script.sh
+cd Desktop
+ls -la
+cd
+cd dotfiles
+ls -la
+cd ..
+ls -la
+la
+mv .oh-my-zsh dotfiles
+ls -n ~/dotfiles/.oh-my-zsh ~/.oh-my-zsh
+pwd
+la
+cd dotfiles
+ls -la
+vim .install.sh
+git add --all
+git commit -m "Add oh-my-zsh to automatic link-list"
+git push origin master
+vim
+cd
+la
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+cd .vim
+ls -la
+cd ..
+vim .vimrc
+vim
+pwd
+cd Desktop
+ls -la
+mkdir test
+cd te
+cd test
+touch index.js
+vim index.js
+cd 
+vim .vimrc
+vim
+cd ~/Desktop
+cd test
+ls -la
+la
+vim index.js
+cd
+vim .vimrc
+cd Desktop/test
+vim
+vim index.js
+vim .vimrc
+cd
+cd .vim/bundle
+ls -la
+cd ..
+la
+cd bundle
+ls -la
+vim Vundle.vim
+ls -la
+cd ..
+ls -la
+cd ..
+ls -la
+la
+cd dotfiles
+ls -l
+git log --oneline
+git reset 91a02f9 --hard
+\:python3 import sys; print(sys.version)
+pwd
+vim .vimrc
+vim
+cd ~/Desktop/test
+ls -la
+vim index.js
+cd
+vim .vimrc
+vim
+cd ~/Desktop/test
+vim index.js
+cd ~/Desktop
+cd backup_dotfiles
+cd 
+cd dotfiles
+git status
+git add --all
+git commit -m "Add autopairs"
+la
+vim .vimrc
+vim
+cd ~/Desktop
+cd te
+cd test
+vim index.js
+pwd
+la
+cd dotfiles
+ln -s ~/dotfiles/.oh-my-zsh ~/.oh-my-zsh
+cd ..
+ls -la
+la
+pqs
+pqs
+pwd
+exit
