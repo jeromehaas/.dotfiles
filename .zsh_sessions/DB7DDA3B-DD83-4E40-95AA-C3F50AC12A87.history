@@ -1,0 +1,322 @@
+ls -la
+pwd
+mv .zsh_history dotfiles
+la
+cd dotfiles
+ls -la
+cd settings
+ls -la
+cd vim
+ls -la
+vim
+mv plugged pluggggged
+vim
+cd dotfiles
+ls -la
+rm -rf settings
+ls -la
+git log --oneline
+git add --all
+git commit -m "Remove settings dir and have all dotfiles in same place"
+git push origin master
+cd ..
+cd .vim
+ls ala
+la
+cd vim-plug
+ls -la
+vim plugins.vim
+pwd
+vim .vimrc
+ls -la
+cd ..
+ls -la
+cd vim-plug
+ls -la
+cat plugins.vim
+cd ..
+ls -la
+rm -rf vim-plug
+cd 
+cd dotfiles
+vim
+cd 
+cd Desktop
+git clone https://github.com/jeromehaas/terminal_setup.git
+cd terminal_setup
+ls -la
+sh setup_script.sh
+cd Desktop
+ls -la
+cd
+cd dotfiles
+ls -la
+cd ..
+ls -la
+la
+mv .oh-my-zsh dotfiles
+ls -n ~/dotfiles/.oh-my-zsh ~/.oh-my-zsh
+pwd
+la
+cd dotfiles
+ls -la
+vim .install.sh
+git add --all
+git commit -m "Add oh-my-zsh to automatic link-list"
+git push origin master
+vim
+cd
+la
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+cd .vim
+ls -la
+cd ..
+vim .vimrc
+vim
+pwd
+cd Desktop
+ls -la
+mkdir test
+cd te
+cd test
+touch index.js
+vim index.js
+cd 
+vim .vimrc
+vim
+cd ~/Desktop
+cd test
+ls -la
+la
+vim index.js
+cd
+vim .vimrc
+cd Desktop/test
+vim
+vim index.js
+vim .vimrc
+cd
+cd .vim/bundle
+ls -la
+cd ..
+la
+cd bundle
+ls -la
+vim Vundle.vim
+ls -la
+cd ..
+ls -la
+cd ..
+ls -la
+la
+cd dotfiles
+ls -l
+git log --oneline
+git reset 91a02f9 --hard
+\:python3 import sys; print(sys.version)
+pwd
+vim .vimrc
+vim
+cd ~/Desktop/test
+ls -la
+vim index.js
+cd
+vim .vimrc
+vim
+cd ~/Desktop/test
+vim index.js
+cd ~/Desktop
+cd backup_dotfiles
+cd 
+cd dotfiles
+git status
+git add --all
+git commit -m "Add autopairs"
+la
+vim .vimrc
+vim
+cd ~/Desktop
+cd te
+cd test
+vim index.js
+pwd
+la
+cd dotfiles
+ln -s ~/dotfiles/.oh-my-zsh ~/.oh-my-zsh
+cd ..
+ls -la
+la
+pqs
+pqs
+pwd
+exit
+cd Desktop/test
+vim index.js
+cd 
+vim .vimrc
+ls -la
+pwd
+git status
+cd dotfiles/
+git add --all
+git commit -m "Add oh-my-zsh to auto-links"
+\:echo has("lua")
+vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+la
+cd
+vim .vimrc
+git add --all
+git commmit -m "Comment vimrc"
+git push origin master
+cd dotfiles
+git add --all
+git commmit -m "Comment vimrc"
+git commit -m "Comment vimrc"
+git push origin master
+vim .vimrc
+vim
+cd ~/Desktop
+cd test
+vim index.js
+cd 
+vim .vimrc
+vim 
+vim
+cd Documents
+vim
+vim .vimrc
+cd
+vim .vimrc
+vim
+cd
+vim .vimrc
+vim
+cd Desktop/te
+cd test
+ls -la
+cd Desktop
+cd test
+vim index.js
+cd
+vim .vimrc
+vim
+vim .vimrc
+vim
+cd Desktop
+cd te
+cd test
+vim index.js
+cd 
+vim .vimrc
+vim
+la
+pwd
+cd dotfiles
+touch .tern-project
+code .tern-project
+vim .tern-project
+ls -n ~/dotfiles/.tern-project ~/.tern-project
+la
+ls -n .tern-project ~/.tern-project
+ln -s .tern-project ~/.tern-project
+cd ..
+ls -la
+cd Desktop
+cd te
+cd test
+vim index.js
+cd 
+vim .vimrc
+cd dotfiles
+ls -la
+git add --all
+git commit -m "clean up"
+git push origin master
+brew install --cask cyberduck
+pwd
+cd Documents
+la
+rm -rf gzwk_relaunch
+mkdir projects
+cd projects
+git clone https://github.com/jeromehaas/gzwk_relaunch.git
+cd gzwk_relaunch
+code .
+pwd
+git status
+git add --all
+git log --oneline
+git commit -m "Change infotext"
+git push origin master
+vim
+\:
+say "hello"
+say "hello peter"
+"hello everyone"
+say "hello everyone"
+"in this presentation i will show you my dotfiles\
+"
+"in this presentation i will show you my dotfiles"\
+"
+"in this presentation i will show you my dotfiles"
+say "In this presentation i will show you some hacks for your dotfiles"
+say "Stick with me - it could save you some painful hours"
+pwd
+cd
+cd Documents
+cd
+ls -la
+cd dotfiles
+la
+git rm .install.sh.swp
+ls
+la
+cd do
+cd dotfiles
+ls -la
+vim .install.sh
+la
+ln -s .bash_profile ~/.bash_profile
+la
+pwd
+git rm .viminfo
+rm .viminfo
+ln -s .viminfo ~/.viminfo
+la
+cd .oh-my-zsh
+ls -la
+git status
+git log --oneline
+la
+cd ...
+la
+cd dotfiles
+la
+cp .oh-my-zsh ~/Desktop
+mv .oh-my-zsh ~/Desktop
+la
+git status
+git add --all
+git commit -m "Delete oh-my-zsh"
+git push origin master
+mv ~/.oh-my-zsh ~/dotfiles
+cd ~/dotfiles
+la
+rm .oh-my-zsh
+la
+pwd
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+la
+cd ..
+la
+mv .oh-my-zsh ~/dotfiles
+cd dotfiles
+ls -la
+ln -s .oh-my-zsh ~/.oh-my-zsh
+la
+la .npm
+cp .zsh_history ~/dotfiles
+la
+ln -s ~/dotfiles/.zsh_sessions ~/.zsh_sessions
+la
