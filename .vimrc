@@ -60,7 +60,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'shougo/deoplete.nvim'
 Plug 'kien/ctrlp.vim'
 Plug 'sjl/gundo.vim'
-Plug 'vim-scripts/AutoComplPop'
+Plug 'ap/vim-css-color'
 call plug#end()
 
 " THEME SETTINGS
