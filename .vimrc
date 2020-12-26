@@ -1,8 +1,10 @@
+" REQUIRED FOR VUNDLE
+set nocompatible              
+filetype off                  
 
-" USED FOR VUNDLE
-set nocompatible             
-filetype plugin on                  
-set omnifunc=syntaxcomplete#Complete
+" SET RUNTIME PATH TO INCLUDE VUNDLE AND INITIALIZE 
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " MAIN CONFIGS
 set nocompatible
@@ -20,9 +22,9 @@ set undofile
 set undodir=~/.vim/
 set undolevels=1000
 set splitbelow splitright
-:set tabstop=2
-:set shiftwidth=2
-:set expandtab
+set tabstop=2
+set shiftwidth=2
+set expandtab
 
 " SWITCH BETWEEN WINDOWS
 nnoremap <C-J> <C-W>j
@@ -44,25 +46,48 @@ map <leader>gs :G<CR>
 let g:user_emmet_mode='n'
 let g:user_emmet_leader_key=','
 
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'valloric/youcompleteme'
+Plugin'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plugin 'ternjs/tern_for_vim', { 'do' : 'npm install' }
+Plugin 'vim-airline/vim-airline'
+Plugin 'rakr/vim-one'
+Plugin 'sainnhe/edge'
+Plugin 'joshdick/onedark.vim'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-fugitive'
+Plugin 'mattn/emmet-vim'
+Plugin 'sheerun/vim-polyglot'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'shougo/deoplete.nvim'
+Plugin 'kien/ctrlp.vim'
+Plugin 'sjl/gundo.vim'
+Plugin 'eslint/eslint'
+Plugin 'ap/vim-css-color'
+call vundle#end()  
+
+
 " DEFINES WHERE FILES SHOULD BE SAVED AFRER INSALLATION
-call plug#begin('~/dotfiles/.vim/plugged')
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
-Plug 'ternjs/tern_for_vim', { 'do' : 'npm install' }
-Plug 'vim-airline/vim-airline'
-Plug 'rakr/vim-one'
-Plug 'sainnhe/edge'
-Plug 'joshdick/onedark.vim'
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-fugitive'
-Plug 'mattn/emmet-vim'
-Plug 'sheerun/vim-polyglot'
-Plug 'jiangmiao/auto-pairs'
-Plug 'shougo/deoplete.nvim'
-Plug 'kien/ctrlp.vim'
-Plug 'sjl/gundo.vim'
-Plug 'eslint/eslint'
-Plug 'ap/vim-css-color'
-call plug#end()
+" :call plug#begin('~/dotfiles/.vim/plugged')
+" Plug 'VundleVim/Vundle.vim'
+" Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+" Plug 'ternjs/tern_for_vim', { 'do' : 'npm install' }
+" Plug 'vim-airline/vim-airline'
+" Plug 'rakr/vim-one'
+" Plug 'sainnhe/edge'
+" Plug 'joshdick/onedark.vim'
+" Plug 'tpope/vim-surround'
+" Plug 'tpope/vim-fugitive'
+" Plug 'mattn/emmet-vim'
+" Plug 'sheerun/vim-polyglot'
+" Plug 'jiangmiao/auto-pairs'
+" Plug 'shougo/deoplete.nvim'
+" Plug 'kien/ctrlp.vim'
+" Plug 'sjl/gundo.vim'
+" Plug 'eslint/eslint'
+" Plug 'ap/vim-css-color'
+" call plug#end()
 
 " THEME SETTINGS
 syntax on
