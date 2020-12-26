@@ -20,6 +20,9 @@ set undofile
 set undodir=~/.vim/
 set undolevels=1000
 set splitbelow splitright
+:set tabstop=2
+:set shiftwidth=2
+:set expandtab
 
 " SWITCH BETWEEN WINDOWS
 nnoremap <C-J> <C-W>j
