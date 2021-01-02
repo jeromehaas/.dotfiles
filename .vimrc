@@ -1,11 +1,3 @@
-" REQUIRED FOR VUNDLE
-set nocompatible              
-filetype off                  
-
-" SET RUNTIME PATH TO INCLUDE VUNDLE AND INITIALIZE 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
 " MAIN CONFIGS
 set nocompatible
 set autoindent
@@ -64,9 +56,13 @@ Plug 'shougo/deoplete.nvim'
 Plug 'kien/ctrlp.vim'
 Plug 'sjl/gundo.vim'
 Plug 'ap/vim-css-color'
+Plug 'eslint/eslint'
+Plug 'w0rp/ale'
 call plug#end()
 
 " THEME SETTINGS
 syntax on
 colorscheme onedark
 
+let b:ale_fixers = {'javascript': ['prettier', 'eslint']}
+let g:ale_fix_on_save = 1

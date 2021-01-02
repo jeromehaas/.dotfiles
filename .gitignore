@@ -17,6 +17,8 @@ Thumbs.db
 .private
 .gitconfig
 
+# NPM cache
+.npm/_cacache/
 
 # SSH files
 .ssh

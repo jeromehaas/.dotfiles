@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'dev' ]
+2 info using npm@6.14.8
+3 info using node@v12.18.3
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle contact_keeper@1.0.0~predev: contact_keeper@1.0.0
+6 info lifecycle contact_keeper@1.0.0~dev: contact_keeper@1.0.0
+7 verbose lifecycle contact_keeper@1.0.0~dev: unsafe-perm in lifecycle true
+8 verbose lifecycle contact_keeper@1.0.0~dev: PATH: /usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/jeromehaas/Documents/projects/contact_keeper/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+9 verbose lifecycle contact_keeper@1.0.0~dev: CWD: /Users/jeromehaas/Documents/projects/contact_keeper
+10 silly lifecycle contact_keeper@1.0.0~dev: Args: [ '-c', 'concurrently" npm run server" npm run client"' ]
+11 silly lifecycle contact_keeper@1.0.0~dev: Returned: code: 2  signal: null
+12 info lifecycle contact_keeper@1.0.0~dev: Failed to exec dev script
+13 verbose stack Error: contact_keeper@1.0.0 dev: `concurrently" npm run server" npm run client"`
+13 verbose stack Exit status 2
+13 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+13 verbose stack     at EventEmitter.emit (events.js:315:20)
+13 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+13 verbose stack     at ChildProcess.emit (events.js:315:20)
+13 verbose stack     at maybeClose (internal/child_process.js:1021:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)
+14 verbose pkgid contact_keeper@1.0.0
+15 verbose cwd /Users/jeromehaas/Documents/projects/contact_keeper
+16 verbose Darwin 20.2.0
+17 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "dev"
+18 verbose node v12.18.3
+19 verbose npm  v6.14.8
+20 error code ELIFECYCLE
+21 error errno 2
+22 error contact_keeper@1.0.0 dev: `concurrently" npm run server" npm run client"`
+22 error Exit status 2
+23 error Failed at the contact_keeper@1.0.0 dev script.
+23 error This is probably not a problem with npm. There is likely additional logging output above.
+24 verbose exit [ 2, true ]
