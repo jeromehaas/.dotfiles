@@ -27,6 +27,10 @@ brew cask install visual-studio-code
 brew cask install typora
 brew cask install notion
 brew cask install mongodb-compass
+brew cask install yarn
+brew cask install node 
+brew cask install git
+brew cask install zsh 
 
 # Install Source Code Pro Font
 brew tap homebrew/cask-fonts
