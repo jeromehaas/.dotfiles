@@ -1,0 +1,72 @@
+# npm resolution error report
+
+2021-01-08T16:03:43.597Z
+
+While resolving: client@1.0.0
+Found: node-sass@5.0.0
+node_modules/node-sass
+  node-sass@"*" from the root project
+
+Could not resolve dependency:
+peer node-sass@"^4.7.2" from @zeit/next-sass@1.0.1
+node_modules/@zeit/next-sass
+  @zeit/next-sass@"*" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force, or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.
+
+Raw JSON explanation object:
+
+{
+  "code": "ERESOLVE",
+  "current": {
+    "name": "node-sass",
+    "version": "5.0.0",
+    "whileInstalling": {
+      "name": "client",
+      "version": "1.0.0",
+      "path": "/Users/jeromehaas/Documents/playgrounds/auth_firebase_playground/client"
+    },
+    "location": "node_modules/node-sass",
+    "dependents": [
+      {
+        "type": "prod",
+        "name": "node-sass",
+        "spec": "*",
+        "from": {
+          "location": "/Users/jeromehaas/Documents/playgrounds/auth_firebase_playground/client"
+        }
+      }
+    ]
+  },
+  "edge": {
+    "type": "peer",
+    "name": "node-sass",
+    "spec": "^4.7.2",
+    "error": "INVALID",
+    "from": {
+      "name": "@zeit/next-sass",
+      "version": "1.0.1",
+      "whileInstalling": {
+        "name": "client",
+        "version": "1.0.0",
+        "path": "/Users/jeromehaas/Documents/playgrounds/auth_firebase_playground/client"
+      },
+      "location": "node_modules/@zeit/next-sass",
+      "dependents": [
+        {
+          "type": "prod",
+          "name": "@zeit/next-sass",
+          "spec": "*",
+          "from": {
+            "location": "/Users/jeromehaas/Documents/playgrounds/auth_firebase_playground/client"
+          }
+        }
+      ]
+    }
+  },
+  "peerConflict": null,
+  "strictPeerDeps": false,
+  "force": false
+}

@@ -1,6 +1,7 @@
 " MAIN CONFIGS
 set nocompatible
 set autoindent
+set smartindent
 set expandtab
 set hidden
 set encoding=utf-8
@@ -23,6 +24,10 @@ nnoremap <C-J> <C-W>j
 nnoremap <C-K> <C-W>k
 nnoremap <C-L> <C-W>l
 nnoremap <C-H> <C-W>h
+
+" HOLD VISUAL MODE AFTER INDENTING IN VISUAL MODE
+vnoremap > >gv
+vnoremap < <gv
 
 " MAPLEADERS
 let mapleader=","

@@ -31,6 +31,7 @@ brew cask install yarn
 brew cask install node 
 brew cask install git
 brew cask install zsh 
+brew cask install figma
 
 # Install Source Code Pro Font
 brew tap homebrew/cask-fonts
