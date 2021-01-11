@@ -43,6 +43,10 @@ map <leader>gs :G<CR>
 let g:user_emmet_mode='n'
 let g:user_emmet_leader_key=','
 
+" VISUAL INDICATOR FOR MODE
+:autocmd InsertEnter,InsertLeave * set cul!
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
 
 " DEFINES WHERE FILES SHOULD BE SAVED AFRER INSALLATION
 call plug#begin('~/dotfiles/.vim/plugged')
