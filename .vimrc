@@ -1,4 +1,4 @@
-" MAIN CONFIGS
+" CONFIGS
 set nocompatible
 set autoindent
 set smartindent
@@ -29,6 +29,10 @@ nnoremap <C-H> <C-W>h
 vnoremap > >gv
 vnoremap < <gv
 
+" ADD NEW LINE ON ENTER
+nmap <S-Enter> O<Esc>
+nmap <CR> o<Esc>
+
 " MAPLEADERS
 let mapleader=","
 map <leader>s :w<cr>
@@ -38,6 +42,9 @@ map <leader>h :split<CR>
 map <leader>v :vsplit<CR>
 map <leader>c :close<CR>
 map <leader>gs :G<CR>
+
+" SHOW HIDDEN FILES IN NERDTREE
+let NERDTreeShowHidden=1
 
 " KEY BINDINGS FOR EMMET
 let g:user_emmet_mode='n'

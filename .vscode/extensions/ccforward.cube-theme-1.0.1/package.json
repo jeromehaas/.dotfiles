@@ -1,0 +1,28 @@
+{
+	"name": "cube-theme",
+	"displayName": "Cube Theme",
+	"description": "A theme made by ccforward",
+	"version": "1.0.1",
+	"publisher": "ccforward",
+	"icon": "images/icon.png",
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "cc-theme",
+				"uiTheme": "vs-dark",
+				"path": "./cc.tmTheme"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "a20fc05a-6456-4b56-a3bf-ea809372f9d9",
+		"publisherId": "d7e9300d-86ad-41e8-a5c6-916d3d137ce7",
+		"publisherDisplayName": "ccforward"
+	}
+}
