@@ -104,6 +104,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias ga="git add"
+alias gaa="git add --all"
 alias gc="git commit -m"
 alias gpo="git push origin master"
 alias gb="git branch"
