@@ -71,7 +71,6 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'shougo/deoplete.nvim'
 Plug 'kien/ctrlp.vim'
 Plug 'sjl/gundo.vim'
-Plug 'ap/vim-css-color'
 Plug 'eslint/eslint'
 Plug 'w0rp/ale'
 call plug#end()

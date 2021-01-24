@@ -24,3 +24,6 @@ Thumbs.db
 .npm/_cacache/
 .npm/_logs/
 .npm/
+
+# ZSH
+.zsh_sessions/
